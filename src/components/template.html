@@ -31,7 +31,7 @@
           name="fade"
         >
           <img 
-           :key="images[select]"
+           :key="images[select].src"
            :src="images[select].src"
            :srcset="images[select].srcset || ''"
            class="vue-lb-modal-image"
